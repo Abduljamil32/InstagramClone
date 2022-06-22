@@ -11,6 +11,18 @@
 		1110990B28310D2C00667932 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110990A28310D2C00667932 /* ContentView.swift */; };
 		1110990D28310D2E00667932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1110990C28310D2E00667932 /* Assets.xcassets */; };
 		1110991028310D2E00667932 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1110990F28310D2E00667932 /* Preview Assets.xcassets */; };
+		1110991928310E4E00667932 /* StoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110991828310E4E00667932 /* StoryScreen.swift */; };
+		1110991B28310E5F00667932 /* PostScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110991A28310E5F00667932 /* PostScreen.swift */; };
+		1110991E2831B04000667932 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110991D2831B04000667932 /* MainScreen.swift */; };
+		111099202831B0A300667932 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110991F2831B0A300667932 /* ProfileScreen.swift */; };
+		111099222831B0D500667932 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111099212831B0D500667932 /* SearchScreen.swift */; };
+		111099242831B14A00667932 /* PublishScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111099232831B14A00667932 /* PublishScreen.swift */; };
+		111099262831B5B500667932 /* MessageScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111099252831B5B500667932 /* MessageScreen.swift */; };
+		1110992B2831D42D00667932 /* ActualStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110992A2831D42D00667932 /* ActualStory.swift */; };
+		1110992D2833937700667932 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110992C2833937700667932 /* Posts.swift */; };
+		111C4108285F5AEB00D7007A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C4107285F5AEB00D7007A /* Coordinator.swift */; };
+		111C410A285F5AF400D7007A /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C4109285F5AF400D7007A /* ImagePickerView.swift */; };
+		111C410C285F5BBA00D7007A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111C410B285F5BBA00D7007A /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		1110990A28310D2C00667932 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1110990C28310D2E00667932 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1110990F28310D2E00667932 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1110991828310E4E00667932 /* StoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryScreen.swift; sourceTree = "<group>"; };
+		1110991A28310E5F00667932 /* PostScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostScreen.swift; sourceTree = "<group>"; };
+		1110991D2831B04000667932 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		1110991F2831B0A300667932 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		111099212831B0D500667932 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		111099232831B14A00667932 /* PublishScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishScreen.swift; sourceTree = "<group>"; };
+		111099252831B5B500667932 /* MessageScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageScreen.swift; sourceTree = "<group>"; };
+		1110992A2831D42D00667932 /* ActualStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualStory.swift; sourceTree = "<group>"; };
+		1110992C2833937700667932 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		111C4107285F5AEB00D7007A /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		111C4109285F5AF400D7007A /* ImagePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		111C410B285F5BBA00D7007A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +75,12 @@
 		1110990728310D2C00667932 /* InstagramClone */ = {
 			isa = PBXGroup;
 			children = (
+				111C4106285F5AD600D7007A /* Utils */,
+				111099272831CAB500667932 /* Profile */,
+				1110991C2831B02F00667932 /* Screens */,
+				1110991728310E3C00667932 /* Post */,
+				1110991628310E3000667932 /* Story */,
 				1110990828310D2C00667932 /* InstagramCloneApp.swift */,
-				1110990A28310D2C00667932 /* ContentView.swift */,
 				1110990C28310D2E00667932 /* Assets.xcassets */,
 				1110990E28310D2E00667932 /* Preview Content */,
 			);
@@ -65,6 +93,54 @@
 				1110990F28310D2E00667932 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1110991628310E3000667932 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				1110991828310E4E00667932 /* StoryScreen.swift */,
+			);
+			path = Story;
+			sourceTree = "<group>";
+		};
+		1110991728310E3C00667932 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				1110991A28310E5F00667932 /* PostScreen.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		1110991C2831B02F00667932 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1110990A28310D2C00667932 /* ContentView.swift */,
+				1110991D2831B04000667932 /* MainScreen.swift */,
+				1110991F2831B0A300667932 /* ProfileScreen.swift */,
+				111099212831B0D500667932 /* SearchScreen.swift */,
+				111099232831B14A00667932 /* PublishScreen.swift */,
+				111099252831B5B500667932 /* MessageScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		111099272831CAB500667932 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1110992A2831D42D00667932 /* ActualStory.swift */,
+				1110992C2833937700667932 /* Posts.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		111C4106285F5AD600D7007A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				111C4107285F5AEB00D7007A /* Coordinator.swift */,
+				111C4109285F5AF400D7007A /* ImagePickerView.swift */,
+				111C410B285F5BBA00D7007A /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +213,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111099262831B5B500667932 /* MessageScreen.swift in Sources */,
 				1110990B28310D2C00667932 /* ContentView.swift in Sources */,
+				111099202831B0A300667932 /* ProfileScreen.swift in Sources */,
+				111C410C285F5BBA00D7007A /* Utils.swift in Sources */,
+				1110992B2831D42D00667932 /* ActualStory.swift in Sources */,
+				1110991B28310E5F00667932 /* PostScreen.swift in Sources */,
+				111099222831B0D500667932 /* SearchScreen.swift in Sources */,
+				1110992D2833937700667932 /* Posts.swift in Sources */,
+				1110991E2831B04000667932 /* MainScreen.swift in Sources */,
+				111C4108285F5AEB00D7007A /* Coordinator.swift in Sources */,
+				111C410A285F5AF400D7007A /* ImagePickerView.swift in Sources */,
+				111099242831B14A00667932 /* PublishScreen.swift in Sources */,
 				1110990928310D2C00667932 /* InstagramCloneApp.swift in Sources */,
+				1110991928310E4E00667932 /* StoryScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
